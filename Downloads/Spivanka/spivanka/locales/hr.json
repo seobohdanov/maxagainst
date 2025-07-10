@@ -1,0 +1,236 @@
+{
+  "common": {
+    "loading": "Učitavanje...",
+    "error": "Greška",
+    "success": "Uspjeh",
+    "cancel": "Odustani",
+    "save": "Spremi",
+    "delete": "Obriši",
+    "edit": "Uredi",
+    "close": "Zatvori",
+    "back": "Natrag",
+    "next": "Sljedeći",
+    "previous": "Prethodni",
+    "submit": "Pošalji",
+    "confirm": "Potvrdi",
+    "yes": "Da",
+    "no": "Ne"
+  },
+  "navigation": {
+    "home": "Početna",
+    "dashboard": "Nadzorna ploča",
+    "examples": "Primjeri",
+    "account": "Račun",
+    "logout": "Odjavi se",
+    "login": "Prijavi se"
+  },
+  "landing": {
+    "title": "Spivanka - Personalizirane glazbene čestitke",
+    "subtitle": "Stvaramo jedinstvene pjesme-čestitke s kvalitetnim rimovanim tekstovima i glazbom posebno za vaše najmilije i bliske",
+    "cta": "Započnite sada",
+    "createGreeting": "Stvori čestitku",
+    "examples": "Primjeri",
+    "login": "Prijavi se",
+    "logout": "Odjavi se",
+    "dashboard": "Nadzorna ploča",
+    "features": {
+      "title": "Zašto Spivanka?",
+      "personalized": "Personalizirane čestitke",
+      "ai": "AI generirana glazba",
+      "easy": "Jednostavno korištenje",
+      "quality": "Visoka kvaliteta"
+    },
+    "featureBlocks": {
+      "uniqueMusic": {
+        "title": "Jedinstvena glazba",
+        "description": "Suno AI generira potpune glazbene kompozicije (~2 min) u roku od 1-3 minute"
+      },
+      "personalText": {
+        "title": "Personalizirani tekst",
+        "description": "Kvalitetni tekstovi s rimom, dubinom i personalizacijom za svaki događaj"
+      },
+      "beautifulCover": {
+        "title": "Lijepa naslovnica",
+        "description": "Generiramo jedinstvenu vizualnu naslovnicu za vašu glazbenu čestitku"
+      }
+    },
+    "howItWorks": {
+      "title": "Kako to funkcionira",
+      "step1": {
+        "title": "Ispunite obrazac",
+        "desc": "Recite nam o primatelju, povodu i odnosu"
+      },
+      "step2": {
+        "title": "Odaberite stil",
+        "desc": "Odaberite glazbeni stil i raspoloženje čestitke"
+      },
+      "step3": {
+        "title": "Platite",
+        "desc": "Odaberite plan i izvršite plaćanje"
+      },
+      "step4": {
+        "title": "Dobijte rezultat",
+        "desc": "Preuzmite gotovu pjesmu-čestitku"
+      }
+    },
+    "pricing": {
+      "title": "Cijene",
+      "basic": {
+        "title": "Osnovni",
+        "features": {
+          "0": "Personalizirani tekst",
+          "1": "Glazbena kompozicija (~2 min)",
+          "2": "Osnovna naslovnica",
+          "3": "MP3 datoteka"
+        },
+        "select": "Odaberi"
+      },
+      "premium": {
+        "title": "Premium",
+        "popular": "POPULARAN",
+        "features": {
+          "0": "Sve iz osnovnog",
+          "1": "Jedinstvena naslovnica s AI",
+          "2": "Dodatne glazbene varijante",
+          "3": "Visokokvalitetni MP3",
+          "4": "Prioritetna podrška"
+        },
+        "select": "Odaberi"
+      }
+    },
+    "footer": {
+      "description": "Stvaramo jedinstvene glazbene čestitke s personaliziranim tekstovima i melodijama.",
+      "service": "Usluga",
+      "howItWorks": "Kako to funkcionira",
+      "examples": "Primjeri",
+      "pricing": "Cijene",
+      "support": "Podrška",
+      "faq": "FAQ",
+      "contacts": "Kontakti",
+      "terms": "Uvjeti korištenja",
+      "social": "Društvene mreže",
+      "copyright": "© 2024 Spivanka. Sva prava pridržana."
+    }
+  },
+  "auth": {
+    "signIn": "Prijavi se s Google-om",
+    "signOut": "Odjavi se",
+    "welcome": "Dobrodošli",
+    "unauthorized": "Niste ovlašteni",
+    "sessionExpired": "Sesija je istekla"
+  },
+  "dashboard": {
+    "title": "Nadzorna ploča",
+    "greetings": "Čestitke",
+    "calendar": "Kalendar",
+    "account": "Račun",
+    "createGreeting": "Stvori novu čestitku",
+    "noGreetings": "Nemate još čestitki",
+    "createFirst": "Stvorite svoju prvu čestitku",
+    "myGreetings": "Moje čestitke",
+    "payments": "Plaćanja",
+    "statistics": "Statistika",
+    "settings": "Postavke",
+    "refresh": "Osvježi",
+    "cleanup": "Očisti",
+    "examples": "Primjeri",
+    "noGreetingsYet": "Nemate još čestitki",
+    "createFirstGreeting": "Stvorite svoju prvu personaliziranu čestitku",
+    "createGreetingButton": "Stvori čestitku"
+  },
+  "greeting": {
+    "form": {
+      "title": "Nova glazbena čestitka",
+      "recipientName": "Ime primatelja",
+      "recipientNamePlaceholder": "Unesite ime osobe",
+      "occasion": "Povod",
+      "occasionPlaceholder": "npr. rođendan, godišnjica, praznik",
+      "relationship": "Odnos",
+      "relationshipPlaceholder": "npr. supružnik, prijatelj, kolega",
+      "personalDetails": "Osobni detalji",
+      "personalDetailsPlaceholder": "Posebnosti, hobiji, sjećanja",
+      "musicStyle": "Glazbeni stil",
+      "mood": "Raspoloženje",
+      "language": "Jezik čestitke",
+      "plan": "Plan",
+      "basic": "Osnovni",
+      "premium": "Premium",
+      "generate": "Generiraj čestitku"
+    },
+    "status": {
+      "generating": "Generiranje...",
+      "success": "Uspješno generirano",
+      "error": "Greška pri generiranju",
+      "pending": "Na čekanju"
+    },
+    "actions": {
+      "play": "Pusti",
+      "pause": "Pauziraj",
+      "download": "Preuzmi",
+      "share": "Podijeli",
+      "delete": "Obriši",
+      "edit": "Uredi"
+    }
+  },
+  "calendar": {
+    "title": "Google Kalendar",
+    "connect": "Poveži kalendar",
+    "disconnect": "Odspoji kalendar",
+    "refresh": "Osvježi događaje",
+    "noEvents": "Nema događaja",
+    "upcoming": "Predstojeći događaji",
+    "past": "Prošli događaji",
+    "today": "Danas",
+    "thisWeek": "Ovaj tjedan",
+    "thisMonth": "Ovaj mjesec"
+  },
+  "account": {
+    "title": "Upravljanje računom",
+    "profile": "Profil",
+    "settings": "Postavke",
+    "export": "Izvezi podatke",
+    "deleteAccount": "Obriši račun",
+    "deleteConfirm": "Jeste li sigurni da želite obrisati račun? Ova akcija se ne može poništiti.",
+    "stats": {
+      "title": "Statistika",
+      "totalGreetings": "Ukupno čestitki",
+      "successful": "Uspješno generirane",
+      "pending": "Na čekanju",
+      "public": "Javne čestitke"
+    },
+    "dataExport": {
+      "title": "Izvoz podataka",
+      "description": "Preuzmite sve svoje podatke u JSON formatu",
+      "download": "Preuzmi podatke"
+    }
+  },
+  "payment": {
+    "title": "Plaćanje",
+    "amount": "Iznos",
+    "currency": "HRK",
+    "cardNumber": "Broj kartice",
+    "expiry": "Datum isteka",
+    "cvv": "CVV",
+    "pay": "Plati",
+    "processing": "Obrađivanje...",
+    "success": "Plaćanje uspješno",
+    "error": "Greška pri plaćanju"
+  },
+  "errors": {
+    "network": "Greška mreže",
+    "server": "Greška servera",
+    "validation": "Greška validacije",
+    "auth": "Greška autentifikacije",
+    "notFound": "Nije pronađeno",
+    "forbidden": "Zabranjeno",
+    "internal": "Interna greška"
+  },
+  "messages": {
+    "greetingCreated": "Čestitka je uspješno stvorena",
+    "greetingDeleted": "Čestitka je obrisana",
+    "accountDeleted": "Račun je obrisan",
+    "dataExported": "Podaci su izvezeni",
+    "calendarConnected": "Kalendar je povezan",
+    "calendarDisconnected": "Kalendar je odspojen"
+  }
+} 

@@ -1,0 +1,168 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Скрытие скроллбара для мобильных табов */
+@layer utilities {
+  .scrollbar-hide {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;  /* Chrome, Safari and Opera */
+  }
+}
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+/* Стили для аудио слайдера */
+.slider {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 100%;
+  height: 8px;
+  background: transparent;
+  outline: none;
+  position: relative;
+  z-index: 10;
+  margin: 0;
+  padding: 0;
+}
+
+.slider::-webkit-slider-runnable-track {
+  height: 8px;
+  background: transparent;
+  border-radius: 8px;
+}
+
+.slider::-moz-range-track {
+  height: 8px;
+  background: transparent;
+  border-radius: 8px;
+}
+
+.slider::-ms-fill-lower,
+.slider::-ms-fill-upper {
+  height: 8px;
+  background: transparent;
+  border-radius: 8px;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #e94057 0%, #8a2387 100%);
+  border: 4px solid #fff;
+  box-shadow: 0 2px 8px 0 rgba(140, 0, 255, 0.15);
+  margin-top: -10px;
+  cursor: pointer;
+  transition: box-shadow 0.2s;
+}
+
+.slider:active::-webkit-slider-thumb {
+  box-shadow: 0 2px 12px 0 rgba(140, 0, 255, 0.25);
+}
+
+.slider::-moz-range-thumb {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #e94057 0%, #8a2387 100%);
+  border: 4px solid #fff;
+  box-shadow: 0 2px 8px 0 rgba(140, 0, 255, 0.15);
+  cursor: pointer;
+  margin-top: -10px;
+}
+
+.slider:active::-moz-range-thumb {
+  box-shadow: 0 2px 12px 0 rgba(140, 0, 255, 0.25);
+}
+
+.slider::-ms-thumb {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #e94057 0%, #8a2387 100%);
+  border: 4px solid #fff;
+  box-shadow: 0 2px 8px 0 rgba(140, 0, 255, 0.15);
+  cursor: pointer;
+  margin-top: -10px;
+}
+
+.slider:active::-ms-thumb {
+  box-shadow: 0 2px 12px 0 rgba(140, 0, 255, 0.25);
+}
+
+.slider::-moz-focus-outer {
+  border: 0;
+}
+
+.slider::-ms-tooltip {
+  display: none;
+}
+
+/* Прогресс-бар для аудио */
+.audio-progress {
+  position: relative;
+  width: 100%;
+  height: 8px;
+  background: #e5e7eb;
+  border-radius: 4px;
+  overflow: hidden;
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.audio-progress-fill {
+  height: 100%;
+  background: linear-gradient(90deg, #ec4899, #8b5cf6);
+  border-radius: 4px;
+  transition: width 0.1s ease;
+  position: relative;
+}
+
+.audio-progress-fill::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.3), transparent);
+  animation: shimmer 2s infinite;
+}
+
+@keyframes shimmer {
+  0% { transform: translateX(-100%); }
+  100% { transform: translateX(100%); }
+} 
